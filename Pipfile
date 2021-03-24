@@ -6,7 +6,7 @@ name = "pypi"
 [packages]
 django = "*"
 django-rest-framework = "*"
-decouple = "*"
+python-decouple = "*"
 
 [dev-packages]
 
