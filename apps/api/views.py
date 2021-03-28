@@ -47,7 +47,7 @@ def task_create(request):
 @api_view(['POST'])
 def task_update(request, pk):
     task = Todo_list_model.objects.get(id=pk)
-    serializer = Todo_list_serializer(instance=post, data=request.data)
+    serializer = Todo_list_serializer(instance=task, data=request.data)
 
     if serializer.is_valid():
         serializer.save()
