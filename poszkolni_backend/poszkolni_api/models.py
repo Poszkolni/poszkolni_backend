@@ -2,6 +2,7 @@ from django.db import models
 from datetime import datetime
 from django.contrib.auth.models import User
 
+
 class Todo_list_model(models.Model):
     name = models.CharField(max_length=100, default="")
     date = models.DateField(default=datetime.now().strftime("%Y-%m-%d"))
