@@ -5,3 +5,4 @@ class Todo_list_serializer(serializers.ModelSerializer):
     class Meta:
         model = Todo_list_model
         fields = '__all__'
+        
