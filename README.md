@@ -12,7 +12,7 @@
 You have to create `.env` file before running the django server and paste your postgres server data.
 Check the template of `.env` in `.env.example` file.
 
-## Generate API scheme
+## Generate API schema
 1. Ensure, that you have pyyml and uritemplate installed by typing `pipenv install`
 2. Move to main project folder
 3. Type in console `python manage.py generateschema > schema.yml`
